@@ -4,7 +4,6 @@ import ErrorAlert from '../components/ErrorAlert';
 import Spinner from '../components/Spinner';
 import LimitForm from '../components/LimitForm';
 import PaginationButtons from '../components/PaginationButtons';
-import PokeItem from '../components/PokeItem';
 
 function Maestro() {
   const [data, setData] = useState(null);

@@ -14,10 +14,10 @@ function App() {
         <div className="container">
           <div style={{ maxWidth: 475 }}>
             <Routes>
-              <Route path="/" element={<BaseLevel />} />
+              <Route path="/" element={<Virtuoso />} />
+              <Route path="/base" element={<BaseLevel />} />
               <Route path="/jam" element={<JamMaster />} />
               <Route path="/maestro" element={<Maestro />} />
-              <Route path="/virtuoso" element={<Virtuoso />} />
               <Route path="/pokemon/:id" element={<PokemonDetails />} />
             </Routes>
           </div>
