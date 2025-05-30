@@ -23,7 +23,7 @@ function PlaceholderButton() {
 function DetailsButton({ id, pokemon }) {
   return (
     <Link to={`/pokemon/${id}`} className="btn btn-primary" state={pokemon}>
-      View Details
+      <i className="bi bi-info-circle-fill"></i>
     </Link>
   );
 }
